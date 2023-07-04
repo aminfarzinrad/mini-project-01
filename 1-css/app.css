@@ -46,9 +46,11 @@ body{
 .main{
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .product{
-    width: 100%;
+    max-width: 286px;
     box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.08);
     padding: 24px;
     background: #fff;
@@ -57,7 +59,7 @@ body{
     width: 100%;
 }
 .product-name-main{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
     margin-top: 14px;
     line-height: 1.6;
